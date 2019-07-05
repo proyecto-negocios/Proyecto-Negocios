@@ -1,0 +1,43 @@
+﻿<Window x:Class="Repaso_Ejercicio_Zoologico.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Repaso_Ejercicio_Zoologico"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <Label Name="LbListadoZoologico" Content="Listado de Zoologicos"/>
+            <ListBox Name="LtbZoologico" Width="250" Height="250" HorizontalAlignment="Left" Margin="5 0 0 0" />
+            <Button Name="BtnEliminarZoologico" Content="Eliminar Zoologico" Margin="5 5 7 0" Height="40" Click="BtnEliminarZoologico_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Label Name="LbAnimalZoologico" Content="Listado de animales en Zoologico"/>
+            <ListBox Name="LtbAnimalZoologico" Width="250" Height="250"/>
+            <Button Name="BtnRemoverAnimalZoologico" Content="Remover animal Zoologico" Margin="8 5 7 0" Height="40" Click="BtnRemoverAnimalZoologico_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <Label Name="LbAnimal" Content="Listado de Animales" />
+            <ListBox Name="LtbAnimal" Width="250" Height="250"/>
+            <Button Name="BtnEliminarAnimales" Content="Eliminar animal" Margin="8 5 6 0" Height="40" Click="BtnEliminarAnimales_Click"/>
+        </StackPanel>
+        <TextBox Name="TxtInformacion" Margin="0 260 0 0" Height="20" Width="776" Grid.ColumnSpan="3"/>
+        <StackPanel  Grid.Column="0">
+            <Button Name="BtnAgregarZoologico" Content="Agregar Zoologico" Margin="5 360 7 0" Height="40" Click="BtnAgregarZoologico_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Button Name="BtnAñadirAnimalZoologico" Content="Añadir animal al Zoologico" Height="40" Margin="8 360 7 0" Click="BtnAñadirAnimalZoologico_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Column="2">
+            <Button Name="BtnActualizarNombreAnimal" Content="Actualizar nombre animal" Height="40" Margin="8 360 6 0" Click="BtnActualizarNombreAnimal_Click" />
+        </StackPanel>
+        
+    </Grid>
+    
+</Window>
