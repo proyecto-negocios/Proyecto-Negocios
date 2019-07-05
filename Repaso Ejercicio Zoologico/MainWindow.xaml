@@ -37,7 +37,7 @@
         <StackPanel Grid.Column="2">
             <Button Name="BtnActualizarNombreAnimal" Content="Actualizar nombre animal" Height="40" Margin="8 360 6 0" Click="BtnActualizarNombreAnimal_Click" />
         </StackPanel>
-        
+
     </Grid>
     
 </Window>
