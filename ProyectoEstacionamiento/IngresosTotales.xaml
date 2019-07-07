@@ -1,0 +1,30 @@
+﻿<Window x:Class="ProyectoEstacionamiento.IngresosTotales"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoEstacionamiento"
+        mc:Ignorable="d"
+        Title="IngresosTotales" Height="500" Width="600">
+    <Grid>
+        <StackPanel>
+            <Label Name="LbIngresosTotales" Content="Ingresos Totales" Grid.ColumnSpan="1" Margin="0 0 0 0" HorizontalContentAlignment="Center" FontWeight="Bold">
+                <Label.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFE4E4E4" Offset="0"/>
+                        <GradientStop Color="#FF547BC5" Offset="1"/>
+                    </LinearGradientBrush>
+                </Label.Background>
+            </Label>
+            <ListBox Name="LtbZoologico" Width="450" Height="300" HorizontalAlignment="Center" Margin="0 20 0 0">
+                <ListBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF777CF9" Offset="0"/>
+                        <GradientStop Color="#FF222330" Offset="1"/>
+                    </LinearGradientBrush>
+                </ListBox.Background>
+            </ListBox>
+            <Button Name="BtnRegresar" Content="Regresar" HorizontalAlignment="Center" Width="100" Height="40" Margin="0 50 0 0" Click="BtnRegresar_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

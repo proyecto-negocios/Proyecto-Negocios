@@ -15,7 +15,7 @@
             <Button Name="BtnIngresaVehiculo" Content="Ingresar Vehiculo" Click="BtnIngresaVehiculo_Click" Margin="10 80 10 0"/>
             <Button Name="BtnSacarVehiculo" Content="Sacar Vehiculo" Margin="10 30 10 0 " Click="BtnSacarVehiculo_Click"/>
             <Button Name="BtnLisatdo" Content="Lista de Vehiculos" Margin="10 30 10 0"/>
-            <Button Name="BtnIngresosTotales" Content="Ingresos Totales" Margin="10 30 10 0"/>
+            <Button Name="BtnIngresosTotales" Content="Ingresos Totales" Margin="10 30 10 0" Click="BtnIngresosTotales_Click"/>
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFA7C3D7" Offset="0"/>

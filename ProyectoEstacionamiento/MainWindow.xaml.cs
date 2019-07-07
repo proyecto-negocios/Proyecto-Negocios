@@ -38,5 +38,12 @@ namespace ProyectoEstacionamiento
             ventanaSacarVehiculo.Show();
             this.Close();
         }
+
+        private void BtnIngresosTotales_Click(object sender, RoutedEventArgs e)
+        {
+            IngresosTotales ingresosTotales = new IngresosTotales();
+            ingresosTotales.Show();
+            this.Close();
+        }
     }
 }

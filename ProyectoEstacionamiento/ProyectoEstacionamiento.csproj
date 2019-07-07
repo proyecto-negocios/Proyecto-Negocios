@@ -61,10 +61,17 @@
     <Compile Include="IngresarTipoVehiculo.xaml.cs">
       <DependentUpon>IngresarTipoVehiculo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="IngresosTotales.xaml.cs">
+      <DependentUpon>IngresosTotales.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VentanaSacarVehiculo.xaml.cs">
       <DependentUpon>VentanaSacarVehiculo.xaml</DependentUpon>
     </Compile>
     <Page Include="DatosVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="IngresosTotales.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
