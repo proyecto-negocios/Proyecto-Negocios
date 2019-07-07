@@ -55,9 +55,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DatosVehiculo.xaml.cs">
+      <DependentUpon>DatosVehiculo.xaml</DependentUpon>
+    </Compile>
     <Compile Include="IngresarTipoVehiculo.xaml.cs">
       <DependentUpon>IngresarTipoVehiculo.xaml</DependentUpon>
     </Compile>
+    <Page Include="DatosVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

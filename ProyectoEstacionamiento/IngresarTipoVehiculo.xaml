@@ -29,7 +29,7 @@
                 <CheckBox Name="cbPesado" Content="Pesado" Checked="cbSingleCheckedChanged" Unchecked="cbSingleCheckedChanged" Margin="150 50 0 0" FontSize="15"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Button Name="BtnContinuar" Content="Continuar" Width="100" Margin="250 50 0 0"/>
+                <Button Name="BtnContinuar" Content="Continuar" Width="100" Margin="250 50 0 0" Click="BtnContinuar_Click"/>
                 <Button Name="BtnRegresar" Content="Regresar" Width="100" Margin="100 50 0 0"/>
             </StackPanel>
         </StackPanel>

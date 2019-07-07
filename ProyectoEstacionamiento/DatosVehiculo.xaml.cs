@@ -15,25 +15,19 @@ using System.Windows.Shapes;
 namespace ProyectoEstacionamiento
 {
     /// <summary>
-    /// Lógica de interacción para Window1.xaml
+    /// Lógica de interacción para DatosVehiculo.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class DatosVehiculo : Window
     {
-        public Window1()
+        public DatosVehiculo()
         {
             InitializeComponent();
         }
 
-        //Metodo Para  utilizar el ChekBox
-        private void cbSingleCheckedChanged(object sender, RoutedEventArgs e)
+        private void BtnRegresar_Click(object sender, RoutedEventArgs e)
         {
-          
-        }
-
-        private void BtnContinuar_Click(object sender, RoutedEventArgs e)
-        {
-            DatosVehiculo datosVehiculo = new DatosVehiculo();
-            datosVehiculo.ShowDialog();
+            MainWindow mainwindow = new MainWindow();
+            mainwindow.ShowDialog();
         }
     }
 }
