@@ -36,5 +36,12 @@ namespace ProyectoEstacionamiento
             datosVehiculo.Show();
             this.Close();
         }
+
+        private void BtnRegresar_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+            this.Close();
+        }
     }
 }
