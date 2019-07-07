@@ -24,7 +24,7 @@
             </StackPanel.Background>
         </StackPanel>
         <StackPanel>
-            <Label Name="LbSistemaEstacionamiento" Content="Sistema de Estacionamiento" Grid.ColumnSpan="1" Margin="0 0 -600 0" HorizontalContentAlignment="Center">
+            <Label Name="LbSistemaEstacionamiento" Content="Sistema de Estacionamiento" Grid.ColumnSpan="1" Margin="0 0 -600 0" HorizontalContentAlignment="Center" FontWeight="Bold">
                 <Label.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FFE4E4E4" Offset="0"/>
@@ -41,7 +41,6 @@
                     <GradientStop Color="#FFD5DEE3"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-
         </StackPanel>
     </Grid>
 </Window>
