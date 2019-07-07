@@ -23,7 +23,7 @@
                     </LinearGradientBrush>
                 </Label.Background>
             </Label>
-            <ListBox Name="LtbZoologico" Width="450" Height="300" HorizontalAlignment="Left" Margin="20 20 0 0" >
+            <ListBox Name="LtbSacarVehiculo" Width="450" Height="300" HorizontalAlignment="Left" Margin="20 20 0 0" >
                 <ListBox.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="#FF777CF9" Offset="0"/>

@@ -45,5 +45,12 @@ namespace ProyectoEstacionamiento
             ingresosTotales.Show();
             this.Close();
         }
+
+        private void BtnLisatdo_Click(object sender, RoutedEventArgs e)
+        {
+            ListaVehiculos listaVehiculos = new ListaVehiculos();
+            listaVehiculos.Show();
+            this.Close();
+        }
     }
 }
