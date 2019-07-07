@@ -61,6 +61,9 @@
     <Compile Include="IngresarTipoVehiculo.xaml.cs">
       <DependentUpon>IngresarTipoVehiculo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VentanaSacarVehiculo.xaml.cs">
+      <DependentUpon>VentanaSacarVehiculo.xaml</DependentUpon>
+    </Compile>
     <Page Include="DatosVehiculo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -78,6 +81,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="IngresarTipoVehiculo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaSacarVehiculo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

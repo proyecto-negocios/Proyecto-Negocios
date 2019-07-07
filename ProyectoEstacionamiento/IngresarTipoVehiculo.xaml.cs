@@ -33,7 +33,8 @@ namespace ProyectoEstacionamiento
         private void BtnContinuar_Click(object sender, RoutedEventArgs e)
         {
             DatosVehiculo datosVehiculo = new DatosVehiculo();
-            datosVehiculo.ShowDialog();
+            datosVehiculo.Show();
+            this.Close();
         }
     }
 }

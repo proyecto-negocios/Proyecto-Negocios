@@ -24,11 +24,19 @@ namespace ProyectoEstacionamiento
         {
             InitializeComponent();
         }
-
+       
         private void BtnIngresaVehiculo_Click(object sender, RoutedEventArgs e)
         {
             Window1 TipoVehiculo = new Window1();
-            TipoVehiculo.ShowDialog();
+            TipoVehiculo.Show();
+            this.Close();
+        }
+
+        private void BtnSacarVehiculo_Click(object sender, RoutedEventArgs e)
+        {
+            VentanaSacarVehiculo ventanaSacarVehiculo = new VentanaSacarVehiculo();
+            ventanaSacarVehiculo.Show();
+            this.Close();
         }
     }
 }

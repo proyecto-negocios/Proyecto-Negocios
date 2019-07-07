@@ -15,25 +15,20 @@ using System.Windows.Shapes;
 namespace ProyectoEstacionamiento
 {
     /// <summary>
-    /// Lógica de interacción para DatosVehiculo.xaml
+    /// Lógica de interacción para VentanaSacarVehiculo.xaml
     /// </summary>
-    public partial class DatosVehiculo : Window
+    public partial class VentanaSacarVehiculo : Window
     {
-        public DatosVehiculo()
+        public VentanaSacarVehiculo()
         {
             InitializeComponent();
         }
 
-        private void BtnSalir_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainwindow = new MainWindow();
-            mainwindow.Show();
-            this.Close();
-        }
-
         private void BtnRegresar_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow regresar = new MainWindow();
+            regresar.Show();
+            this.Close();
         }
     }
 }

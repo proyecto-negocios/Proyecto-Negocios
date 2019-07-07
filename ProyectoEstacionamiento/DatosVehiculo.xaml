@@ -30,8 +30,9 @@
             <Label Name="LbHoraSalida" Content="Hora de Salida" Margin="10 5 0 0" FontSize="15"/>
             <TextBox Name="TxtHoraSalida" Height="20" Width="250" HorizontalAlignment="Left" Margin="15 0 0 0"/>
             <StackPanel Margin="0 5 0 0" Orientation="Horizontal">
-                <Button Name="BtnGuardar" Content="Guardar" Margin="50 70 0 0" Width="100" Height="35" HorizontalAlignment="Left"/>
-                <Button Name="BtnRegresar" Content="Regresar" Margin="50 70 0 0" Width="100" Height="35" HorizontalAlignment="Left" Click="BtnRegresar_Click"/>
+                <Button Name="BtnGuardar" Content="Guardar" Margin="10 70 0 0" Width="100" Height="35" HorizontalAlignment="Left"/>
+                <Button Name="BtnRegresar" Content="Regresar" Margin="10 70 10 0" Width="100" Height="35" HorizontalAlignment="Left" Click="BtnRegresar_Click"/>
+                <Button Name="BtnSalir" Content="Salir" Margin="0 70 0 0" Width="100" Height="35" HorizontalAlignment="Left" Click="BtnSalir_Click"/>
             </StackPanel>
             
 
