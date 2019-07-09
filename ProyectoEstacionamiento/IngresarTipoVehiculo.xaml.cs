@@ -35,7 +35,7 @@ namespace ProyectoEstacionamiento
 
             if (cbLiviano.IsChecked == false && cbMediano.IsChecked == false && cbPesado.IsChecked == false)
             {
-                MessageBox.Show("Seleccione una opción para continuar","Información",MessageBoxButton.OK,MessageBoxImage.Exclamation);
+                MessageBox.Show("Debe Seleccionar una opción para continuar","Información",MessageBoxButton.OK,MessageBoxImage.Exclamation);
             }
             else
             {
